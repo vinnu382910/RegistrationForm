@@ -1,0 +1,80 @@
+/* Write your CSS code here */
+
+.Reg-form-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-heading {
+  color: #ea580c;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.form-cont {
+  padding: 40px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  width: 400px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.input-label {
+  font-weight: bold;
+  color: #475569;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.input-filed {
+  padding-left: 10px;
+  height: 30px;
+  width: 300px;
+}
+
+.error-input {
+  background-color: #fef2f4;
+  border-color: red;
+  height: 30px;
+}
+
+.login-button {
+  color: #fff;
+  font-family: Roboto;
+  font-weight: bold;
+  margin-top: 15px;
+  height: 30px;
+  background-color: #ea580c;
+  border-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn {
+  width: 100px;
+}
+
+.error-msg {
+  color: #ff0b37;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.success-cont {
+  align-items: center;
+  height: 400px;
+  width: 400px;
+}
